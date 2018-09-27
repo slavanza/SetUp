@@ -117,11 +117,11 @@
   <ItemGroup>
     <ClInclude Include="cDictionary.h">
       <DeploymentContent>false</DeploymentContent>
-      <FileType>CppClass</FileType>
+      <FileType>CppHeader</FileType>
     </ClInclude>
     <ClInclude Include="cNotFoundException.h">
       <DeploymentContent>false</DeploymentContent>
-      <FileType>CppClass</FileType>
+      <FileType>CppHeader</FileType>
     </ClInclude>
     <ClInclude Include="Dictionary.h">
       <DeploymentContent>false</DeploymentContent>
@@ -132,9 +132,11 @@
   <ItemGroup>
     <ClCompile Include="cDictionary.cpp">
       <DeploymentContent>false</DeploymentContent>
+      <FileType>CppCode</FileType>
     </ClCompile>
     <ClCompile Include="cNotFoundException.cpp">
       <DeploymentContent>false</DeploymentContent>
+      <FileType>CppCode</FileType>
     </ClCompile>
     <ClCompile Include="main.cpp" />
   </ItemGroup>
