@@ -115,6 +115,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="cDictionary.h">
+      <DeploymentContent>false</DeploymentContent>
+      <FileType>CppClass</FileType>
+    </ClInclude>
+    <ClInclude Include="cNotFoundException.h">
+      <DeploymentContent>false</DeploymentContent>
+      <FileType>CppClass</FileType>
+    </ClInclude>
+    <ClInclude Include="Dictionary.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="NotFoundException.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cDictionary.cpp">
+      <DeploymentContent>false</DeploymentContent>
+    </ClCompile>
+    <ClCompile Include="cNotFoundException.cpp">
+      <DeploymentContent>false</DeploymentContent>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
